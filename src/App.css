@@ -1,0 +1,57 @@
+/* Light Theme (Beige-Brown) */
+body[data-bs-theme="light"] {
+    background-color: #fdf6ec;
+    color: #5a3e2b;
+  }
+  .navbar-brand img {
+    max-height: 100px;
+    width: auto;
+    width: 200px;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+  }
+  
+  .navbar-brand img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .navbar-light {
+    background-color: #fbe8d3 !important;
+  }
+  
+  .parallax-section {
+    background: linear-gradient(rgba(90, 62, 43, 0.5), rgba(90, 62, 43, 0.5)), url('./images/bg-light.jpg') center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  footer.bg-light {
+    background-color: #f8e9d2 !important;
+    color: #5a3e2b;
+  }
+  
+  /* Dark Theme */
+  body[data-bs-theme="dark"] {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .navbar-dark {
+    background-color: #1e1e1e !important;
+  }
+  
+  footer.bg-light[data-bs-theme="dark"] {
+    background-color: #181818 !important;
+    color: #999;
+  }
+  
+  /* Smooth transitions */
+  body {
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  .card, .form-control, .form-select {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
