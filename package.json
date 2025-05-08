@@ -3,27 +3,30 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Adityaji24.github.io/softsell_credex",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
     "framer-motion": "^12.10.1",
     "gsap": "^3.13.0",
-    "react": "^19.1.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.10.9",
     "react-dark-mode-toggle": "^0.2.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.5.3",
     "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^18.2.40",
+    "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.25.0",
@@ -32,6 +35,7 @@
     "globals": "^16.0.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.5",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "gh-pages": "^6.0.0"
   }
 }
