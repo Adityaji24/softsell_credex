@@ -16,8 +16,6 @@ SoftSell is a modern, responsive web application that simplifies the process of 
 
 💬 Chatbot placeholder for future AI assistant integration
 
-📸 Preview
-<!-- Replace with actual UI screenshot if available -->
 
 🛠️ Tech Stack
 Frontend: React.js
